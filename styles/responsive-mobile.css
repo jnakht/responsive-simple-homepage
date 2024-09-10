@@ -1,0 +1,15 @@
+
+@media screen and (max-width: 640px) {
+    .container .description {
+        order: 2;
+    }
+    .container .image {
+        order: 1;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .description .links {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,117 @@
+/* google fonts: poppins */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --button-color: #2A4DD0;
+    --white-font: #FFFFFF;
+    --background-color: #F2F9FE;
+    --font-black: #223344;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+body {
+    background-color: #F2F9FE;
+}
+
+img {
+    width: 100%;
+}
+
+.header,
+.container {
+    width: 76vw;
+    /* border: 1px solid red; */
+    margin: 50px auto;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .dark-theme {
+    display: flex;
+}
+
+.header .nav .dark-theme .dark-theme-logo {
+    width: 105%;
+}
+
+.header .nav .navbar a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #111729;
+    font-size: 1rem;
+}
+
+.header .nav .dark-theme {
+    background: #223344;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    width: 55px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.container .description .first-line,
+.container .description .third-line {
+    color: var(--font-black);
+    font-size: 1.125rem;
+    margin-bottom: 15px;
+}
+.container .description .second-line {
+    color: var(--font-black);
+    font-size: 3.75rem;
+    margin-bottom: 30px;
+}
+.container .description .button {
+    height: 64px;
+    width: 150px;
+    color: var(--white-font);
+    border: none;
+    border-radius: 10px;
+    background: var(--button-color);
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.container .description a {
+    font-size: 1.125rem;
+    color: var(--button-color);
+}
+.container .description .links {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .description .lists ul{
+    display: flex;
+    gap: 45px;
+    list-style: none;
+    font-size: 0.875rem;
+    color: var(--font-black);
+}
+.container .description .lists li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.container .description .lists img {
+    width: 100%;
+}
